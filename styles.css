@@ -1,0 +1,108 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    background-color: #CC7722;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-design {
+    height: 5rem;
+    background-image: url("site_images/title_border.svg");
+    background-repeat: repeat-x;
+}
+
+.fancy-border {
+    height: 5rem;
+    background-image: url("site_images/section_border.svg");
+    background-repeat: repeat-x;
+}
+
+header {
+    background-color: #2D2615;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4rem;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer {
+    background-color: #2D2615;
+    color: white;
+    padding: 5rem;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    justify-content: space-evenly;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: goldenrod;
+}
+
+footer a:active {
+    color: rgb(137, 100, 6);
+}
+
+section {
+    padding: 3rem 40rem 5rem 40rem;
+}
+
+p {
+    font-size: 3rem;
+    color: #2D2615;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 1218px) {
+
+    section {
+        padding: 3rem 20rem 5rem 20rem;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    section {
+        padding: 3rem 11rem 5rem 11rem;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    section {
+        padding: 3rem 3rem 5rem 3rem;
+    }
+
+}
